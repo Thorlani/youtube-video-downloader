@@ -40,7 +40,6 @@ function Home() {
     }
   };
 
-  console.log(res);
 
   return (
     <div className="bg-[orange] w-full min-h-[100vh] p-[4%] sm:p-[10%] lg:p-[5%] flex flex-col justify-center items-center">
