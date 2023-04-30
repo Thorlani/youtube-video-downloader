@@ -104,7 +104,7 @@ function DownloadPage() {
             name="link"
             value={link}
             onChange={(event) => setLink(event.target.value)}
-            className="mb-[14px] w-[25%] h-[35px] rounded outline-none indent-2"
+            className="mb-[14px] w-[50%] md:w-[25%] h-[35px] rounded outline-none indent-2"
           />
           <button
             type="button"
