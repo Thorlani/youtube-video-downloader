@@ -66,8 +66,6 @@ function DownloadPage() {
     }
   };
 
-  console.log(res);
-
   return (
     <div className="bg-[orange] w-full min-h-[100vh] p-[10%] sm:p-[5%] flex flex-col justify-center items-center">
       <motion.div

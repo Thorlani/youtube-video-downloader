@@ -46,8 +46,6 @@ function Home() {
     }
   };
 
-  console.log(link);
-
   const handleSubmit2 = async () => {
     setIsLoading(true);
     try {
