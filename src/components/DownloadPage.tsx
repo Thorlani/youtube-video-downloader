@@ -122,13 +122,13 @@ function DownloadPage() {
             <h3>Dowload links</h3>
             <div className="flex flex-col sm:flex-row w-full justify-center sm:justify-between items-center">
               <div className="flex flex-col justify-center items-center w-[16%]">
-                <p>480px</p>
+                <p>144p</p>
                 <button className="bg-black rounded text-white w-[100px] py-[6%] capitalize">
                   <a
                     href={
                       res?.link === undefined
                         ? ""
-                        : res?.link[Object.keys(res?.link)[5]]
+                        : res?.link[Object.keys(res?.link)[0]]
                     }
                   >
                     download
@@ -136,13 +136,13 @@ function DownloadPage() {
                 </button>
               </div>
               <div className="flex flex-col justify-center items-center w-[16%]">
-                <p>720px</p>
+                <p>360p</p>
                 <button className="bg-black rounded text-white w-[100px] p-[6%] capitalize">
                   <a
                     href={
                       res?.link === undefined
                         ? ""
-                        : res?.link[Object.keys(res?.link)[6]]
+                        : res?.link[Object.keys(res?.link)[1]]
                     }
                   >
                     download
@@ -150,13 +150,13 @@ function DownloadPage() {
                 </button>
               </div>
               <div className="flex flex-col justify-center items-center w-[16%]">
-                <p>1070px</p>
+                <p>720p</p>
                 <button className="bg-black rounded text-white w-[100px] p-[6%] capitalize">
                   <a
                     href={
                       res?.link === undefined
                         ? ""
-                        : res?.link[Object.keys(res?.link)[7]]
+                        : res?.link[Object.keys(res?.link)[2]]
                     }
                   >
                     download
